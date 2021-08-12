@@ -1,0 +1,75 @@
+.header{
+
+    display: flex;
+    justify-content: center;
+    background-color: mediumturquoise ;
+    
+}
+
+p {
+    color: brown;
+}
+
+.origami{
+   
+    display: flex;
+    justify-content: space-evenly;
+    /*background-color: bisque;*/
+ flex-wrap: wrap;
+ margin-left: 50px;
+ margin-right: 50px;
+margin-top: 20px;
+
+}
+
+.aboutandfollow{
+
+display: flex;
+justify-content: space-evenly;
+background-color: mediumturquoise;
+
+ margin-top: 20px;
+
+}
+
+.item p {
+
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    
+    }
+    
+    .item:hover p{
+    
+    opacity: 1;
+    
+    
+    }
+    
+    .item:hover img{
+    
+    opacity: 0.3;
+    
+    }
+    a:link{
+
+        color: slategrey;
+        
+        }
+        
+        a:visited{
+        
+            color: slategrey;
+        
+        }
+        
+        .item{
+        
+        position: relative;
+        background-color: bisque;
+        margin-bottom: 10%;
+        
+        }
